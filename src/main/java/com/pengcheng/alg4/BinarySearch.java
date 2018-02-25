@@ -2,7 +2,7 @@ package com.pengcheng.alg4;
 
 import java.util.Arrays;
 
-public class BinarySearch implements Find {
+public class BinarySearch{
 /*思路
    1、排序
    2、三个下标
@@ -17,7 +17,7 @@ public class BinarySearch implements Find {
 */
 
 
-    public int find(int key, int[] a){
+    public static int find(int key, int[] a){
         Arrays.sort(a);
         int mid = a.length/2;
         if(key == a[mid])
@@ -29,7 +29,7 @@ public class BinarySearch implements Find {
         return -1;
     }
 
-    public int find(int key, RandomAccessContainer container) {
+    public static int find(int key, RandomAccessContainer container) {
 
         return 0;
     }
