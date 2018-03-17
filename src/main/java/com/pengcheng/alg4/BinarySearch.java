@@ -30,7 +30,6 @@ public class BinarySearch{
     }
 
     public static int find(int key, RandomAccessContainer container) {
-
         return 0;
     }
 
